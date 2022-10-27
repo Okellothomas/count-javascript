@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="container border my-5">
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <h2>Number of People</h2>
+          <img src="/images/shoes.jpeg" alt="" />
+          <p id="count">0</p>
+          <div class="row">
+            <div class="col-4">
+              <div class="btn btn-outline-danger" onclick="increase()">+</div>
+            </div>
+            <div class="col-4">
+              <div class="btn btn-outline-secondary" onclick="save()">Save</div>
+            </div>
+            <div class="col-4">
+              <div class="btn btn-outline-info" onclick="reduce()">-</div>
+            </div>
+          </div>
+          <p id="saved">Counted are:</p>
+        </div>
+
+        <div class="col-4"></div>
+      </div>
+    </div>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
